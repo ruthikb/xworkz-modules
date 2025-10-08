@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import javax.servlet.Servlet;
+import javax.servlet.Servlet;c
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -23,7 +23,6 @@ public class GetUserController {
     private  static  final  String UPLOAD_FILE="C:/Users/kruth/IdeaProjects/Model-pet-shop/src/main/resources/pathfile/";
     @Autowired
     PetShopService service;
-
     @Autowired
     OtpGenerator otpGenerator;
 
